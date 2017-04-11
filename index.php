@@ -29,7 +29,7 @@
    {
    	$file = 'error404.php';
    	//или вот так
-   	//header('Location: error404.php');
+   	header('Location: error404.php');
    }
   include($file);
  }
