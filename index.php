@@ -6,9 +6,9 @@
 </head>
 <body>
 	<?
-	echo '<pre>';
+	/*echo '<pre>';
 	print_r($_SERVER);
-	echo '</pre>';
+	echo '</pre>';*/
 	?>
 	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ducimus!</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sapiente eum minus veniam officia, odio obcaecati provident ipsam vitae, adipisci minima commodi amet rerum, doloribus quo fugiat praesentium consequuntur! Adipisci voluptas vitae, praesentium illum accusamus modi soluta aperiam, debitis quae laudantium veritatis laborum magnam itaque.</p>
