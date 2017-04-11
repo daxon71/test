@@ -1,0 +1,138 @@
+/***************************
+Add your custom styles below
+****************************/
+
+.callback__wrap {
+	display: none;
+}
+
+#pozvonim-button div.pozvonim-button-phone, #pozvonim-button div.pozvonim-button-text {
+	background-color: rgba(237, 28, 36, .9) !important;
+}
+#pozvonim-button div.pozvonim-button-border-inner {
+	border: 1px solid rgba(237, 28, 36, 0.7) !important;
+}
+#pozvonim-button div.pozvonim-button-border-outer {
+	border: 1px solid rgba(237, 28, 36, 0.6) !important;
+}
+div#pozvonim-button.pozvonim-hovered .pozvonim-button-border-inner,
+div#pozvonim-button:hover .pozvonim-button-border-inner {
+	border: 1px solid rgba(237, 28, 36, 0.7) !important;
+}
+div#pozvonim-button.pozvonim-hovered .pozvonim-button-border-outer,
+div#pozvonim-button:hover .pozvonim-button-border-outer {
+	border: 1px solid rgba(237, 28, 36, 0.6) !important;
+}
+
+.menu .cur {
+	color: red;
+	font-weight: bold;
+	position: relative;
+}
+
+.call-trigger:focus {
+	outline: none !important;
+}
+
+.slides h1 {
+  text-align: center;
+  text-shadow: 0 0 2px rgba(0,0,0,1), 0 0 10px rgba(0,0,0,.2);
+}
+.imagebg {
+  background-color: #E9E9E9 !important;
+}
+
+.slider-btn-order {
+	text-align: center;
+	display: block;
+}
+.slider-btn-order span {
+	cursor: pointer;
+	padding: 5px 40px;
+	background: #ED1C24;
+	font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 8px;
+	border: 2px solid #fff;
+	transition: .2s;
+}
+.slider-btn-order span:hover {
+	background-color: #c6141b;
+}
+
+.reviews-title {
+	margin-bottom: 25px;
+	color: #ED1C24;
+	font-size: 1.5em;
+}
+.reviews-author {
+	color: #c7a354;
+}
+.reviews-box {
+	margin-top: 40px;
+}
+.reviews-photo {
+	text-align: center;
+}
+.reviews-photo img {
+	border-radius: 50%;
+}
+
+.footer-1 .footer__lower hr {
+	opacity: .3 !important;
+	background-color: #fff;
+}
+.info-brus {
+	background: url(/img/footer_bg.jpg);
+	padding: 40px 0 20px !important;
+	color: #fff;
+}
+
+.owl-prev,
+.owl-next {
+	opacity: .5;
+}
+
+@media screen and (max-width: 400px) {
+	.slider-btn-order span {
+		font-size: 20px;
+	}
+	.imagebg .pos-vertical-center {
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.menu > li a {
+		font-size: 11px;
+	}
+}
+
+.menu > li {
+	font-size: 0.85em;
+}
+
+.nav-bar.single-nav.nav--fixed {
+	overflow: hidden;
+}
+
+.zak {
+	font-size: 20px !important;
+}
+
+div.pozvonim-animated {
+    transition: all 0.4s ease 0s;
+}
+
+.nav-module.right.search {
+	display: none;
+}
+
+footer {
+	padding-top: 0;
+}
+#map {
+	height: 400px;
+	margin-bottom: 50px;
+}
