@@ -5,6 +5,11 @@
 	<title>Document</title>
 </head>
 <body>
+	<?
+	echo '<pre>';
+	print_r($_SERVER);
+	echo '</pre>';
+	?>
 	<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ducimus!</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sapiente eum minus veniam officia, odio obcaecati provident ipsam vitae, adipisci minima commodi amet rerum, doloribus quo fugiat praesentium consequuntur! Adipisci voluptas vitae, praesentium illum accusamus modi soluta aperiam, debitis quae laudantium veritatis laborum magnam itaque.</p>
 	<p>Omnis odio, provident tempora vero ad eum libero officia, quas temporibus blanditiis et culpa est odit debitis doloremque earum a obcaecati voluptates modi nostrum ea impedit! Recusandae repellendus nihil expedita veritatis pariatur hic illo. Eveniet quaerat dolorem, nisi placeat natus blanditiis quidem molestiae inventore. Saepe!</p>
