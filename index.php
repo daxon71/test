@@ -1,5 +1,6 @@
 <?php
-
+echo 111;
+die;
  define ('PRO', 1);
  include('options.php');
  include('maketop.php');
@@ -7,7 +8,8 @@
 
  if (isset($_GET['act']))
 
- {  $file='template/download.html';
+ {
+  $file='template/download.html';
   if ($_GET['act']==1)
   {
     $file = 'template/news.html';
@@ -26,7 +28,8 @@
      }
 
   else
-   {   	$file = 'error404.php';
+   {
+   	$file = 'error404.php';
    	//или вот так
    	//header('Location: error404.php');
    }
