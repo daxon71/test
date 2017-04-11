@@ -1,2 +1,0 @@
-Coontent 1.txt file
-new line
