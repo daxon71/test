@@ -1,6 +1,4 @@
 <?php
-echo 111;
-die;
  define ('PRO', 1);
  include('options.php');
  include('maketop.php');
