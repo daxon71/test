@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="masonry.pkgd.min.js"></script>
+	<style>
+		.grid-item { width: 200px; }
+		.grid-item--width2 { width: 400px; }
+	</style>
+</head>
+<body>
+	<div class="grid">
+	  <div class="grid-item"><img src="1212.jpg" alt=""></div>
+	  <div class="grid-item grid-item--width2"><img src="1212.jpg" alt=""></div>
+	  <div class="grid-item"><img src="1212.jpg" alt=""></div>
+	</div>
+	<script>
+		var elem = document.querySelector('.grid');
+		var msnry = new Masonry( elem, {
+		  // options
+		  itemSelector: '.grid-item',
+		  columnWidth: 200
+		});
+
+		// element argument can be a selector string
+		//   for an individual element
+		var msnry = new Masonry( '.grid', {
+		  // options
+		});
+	</script>
+</body>
+</html>

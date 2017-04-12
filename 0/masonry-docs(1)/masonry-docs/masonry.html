@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Демонстрационная страница работы Masonry для статьи: Masonry - кирпичная стена из постов / WordPress как на ладони" />
+
+	<title>Masonry - демонстрация</title>
+	
+	<style type="text/css">
+	
+		
+		.item { background:#eee; border:1px solid #ccc; padding:5px; margin:5px; opacity:0.6; }
+		.item:hover{ opacity:1; }
+		.item{  width:138px;  }
+		.item img {
+			max-width: 100%;
+		}
+		.x2 {
+			height: 400px;
+		}
+	</style>
+	
+	<!-- Masonry не нуждается в jQuery.
+		 jQuery используется только для демонстрации использования его как плагина -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function($){
+		var $container = $('#container');
+		
+		// инициализация через jQuery
+		$container.masonry({
+			columnWidth: 160,
+			itemSelector: '.item'
+		});
+	})
+	</script>
+
+</head>
+<body>
+
+	<div id="container">
+		<a href="/" class="item x2"><img src="1212.jpg" alt=""></a>
+		<a href="/" class="item"><img src="1212.jpg" alt=""></a>
+		<a href="/" class="item"><img src="1212.jpg" alt=""></a>
+		<a href="/" class="item x2"><img src="1212.jpg" alt=""></a>
+		<a href="/" class="item"><img src="1212.jpg" alt=""></a>
+		<a href="/" class="item x2"><img src="1212.jpg" alt=""></a>
+	</div>
+
+
+
+</body>
+</html>

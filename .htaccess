@@ -1,0 +1,18 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.*[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/(.+)/(.+)/$  \/index.php?dir\=$1&sub_dir\=$2&url\=$3 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/(.+)/$  \/index.php?dir\=$1&url\=$2 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$  \/index.php?url\=$1 [QSA]
